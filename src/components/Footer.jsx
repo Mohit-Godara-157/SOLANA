@@ -17,7 +17,7 @@ const Footer = () => {
     }
   });
   return (
-    <div className="footerBackground py-3 py-lg-5 ">
+    <div className="footerBackground overflowXhidden py-3 py-lg-5 ">
       <a
         className={
           first
@@ -38,11 +38,28 @@ const Footer = () => {
       <Container className="customContainer">
         <Row>
           <Col className="my-2 my-lg-0" lg={6}>
-            <img className="curser" src={footerLogo} alt="footerLogo" />
-            <p className="mt-3 mb-0 ff_roboto fw-normal fs_4xsm text-white">
+            <img
+              data-aos="fade-up-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="curser"
+              src={footerLogo}
+              alt="footerLogo"
+            />
+            <p
+              data-aos="zoom-in-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="mt-3 mb-0 ff_roboto fw-normal fs_4xsm text-white"
+            >
               Managed by Solana Foundation
             </p>
-            <div className="py-4 d-flex gap-2">
+            <div
+              data-aos="zoom-in-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="py-4 d-flex gap-2"
+            >
               <div className="imageBox curser d-flex align-items-center justify-content-center">
                 <svg
                   width="16"
@@ -130,13 +147,25 @@ const Footer = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-0 ff_HelveticaNormal  text_dark  fs_4xsm">
+            <p
+              data-aos="zoom-in-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="mb-0 ff_HelveticaNormal  text_dark  fs_4xsm"
+            >
               © 2023Solana Foundation. All rights reserved.
             </p>
           </Col>
           <Col className="my-2 my-lg-0" lg={6}>
             <Row>
-              <Col className="my-3 my-lg-0" xs={6} md={4}>
+              <Col
+                data-aos="zoom-in-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="my-3 my-lg-0"
+                xs={6}
+                md={4}
+              >
                 <ul className="ps-0 mb-0">
                   <li className="text-white text-uppercase fs_4xsm ff_HelveticaNormal">
                     Solana
@@ -183,7 +212,14 @@ const Footer = () => {
                   </li>
                 </ul>
               </Col>
-              <Col className="my-3 my-lg-0" xs={6} md={4}>
+              <Col
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="my-3 my-lg-0"
+                xs={6}
+                md={4}
+              >
                 <ul className="ps-0 mb-0">
                   <li className="text-white text-uppercase fs_4xsm ff_HelveticaNormal">
                     Get Connected
@@ -214,7 +250,14 @@ const Footer = () => {
                   </li>
                 </ul>
               </Col>
-              <Col className="my-3 my-lg-0" xs={6} md={4}>
+              <Col
+                data-aos="zoom-out"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="my-3 my-lg-0"
+                xs={6}
+                md={4}
+              >
                 <div className="d-flex curser align-items-center">
                   <img src={lang} alt="lang" />
                   <span className="text-uppercase ps-1 text_dark  ff_HelveticaNormal fs_3xsm">

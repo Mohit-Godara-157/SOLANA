@@ -48,29 +48,61 @@ const DigDeeper = () => {
     ],
   };
   return (
-    <div>
+    <div className="overflowXhidden">
       <Container className="customContainer">
-        <h2 className="text-white mt-4 text-center text-lg-start mb-0 ff_HelveticaNormal fs_4lg">
+        <h2
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="text-white mt-4 text-center text-lg-start mb-0 ff_HelveticaNormal fs_4lg"
+        >
           Dig deeper.
         </h2>
-        <p className="fs_4sm ff_HelveticaNormal text-center text-lg-start text_dark_50">
+        <p
+          data-aos="flip-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="fs_4sm ff_HelveticaNormal text-center text-lg-start text_dark_50"
+        >
           Learn from resources across the greater Solana ecosystem.
         </p>
         <Slider {...settings} className="pt-3 pb-5 row">
           {Data.map((obj) => {
             return (
               <Col className="my-3" lg={4}>
-                <div className="deeperCard position-relative overflow-hidden z_4 p-4 mx-2 mx-xl-0  h-100">
-                  <p className="curser mb-0 ff_HelveticaNormal fs_2xsm text-uppercase text_darkBlue l_Spacing_1">
-                    {obj.para}
-                  </p>
-                  <p className="mt-2 mb-0 ff_HelveticaNormal fs_3sm text-white">
-                    {obj.para1}
-                  </p>
-                  <p className="mb-0 mt-3 text-white ff_HelveticaNormal fs_4xsm">
-                    {obj.para2}
-                  </p>
-                  <button className="bg-transparent border-0 btnHover text-white fs_xsm text-uppercase mt-5">
+                <div className="deeperCard d-flex flex-column justify-content-between align-items-start position-relative overflow-hidden z_4 p-4 mx-2 mx-xl-0  h-100">
+                  <div>
+                    <p
+                      data-aos="zoom-in"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="2000"
+                      className="curser mb-0 ff_HelveticaNormal fs_2xsm text-uppercase text_darkBlue l_Spacing_1"
+                    >
+                      {obj.para}
+                    </p>
+                    <p
+                      data-aos="zoom-in-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="2000"
+                      className="mt-2 mb-0 ff_HelveticaNormal fs_3sm text-white"
+                    >
+                      {obj.para1}
+                    </p>
+                    <p
+                      data-aos="zoom-out-right"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="2000"
+                      className="mb-0 mt-3 text-white ff_HelveticaNormal fs_4xsm"
+                    >
+                      {obj.para2}
+                    </p>
+                  </div>
+                  <button
+                    data-aos="zoom-out-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    className="bg-transparent border-0 btnHover text-white fs_xsm text-uppercase mt-4 mb-2"
+                  >
                     {obj.btn}
                     <svg
                       className="ms-2"

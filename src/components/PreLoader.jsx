@@ -6,7 +6,7 @@ const PreLoader = () => {
     document.body.classList.remove("overflow-hidden");
   }, 3000);
   return (
-    <div className="d-flex align-items-center justify-content-center w-100">
+    <div>
       <div className="preloader">
         <img className="animationMove" src={logoImage} alt="logoImage" />
       </div>

@@ -4,21 +4,41 @@ import changelogo from "../assets/img/png/changelogo.png";
 const GoToTeSource = () => {
   return (
     <>
-      <div className="sectionGridient">
+      <div className="sectionGridient overflowXhidden">
         <Container className="customContainer">
-          <h2 className="text-white pt-5 text-center text-lg-start mb-0 ff_HelveticaNormal fs_3lg">
+          <h2
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="text-white pt-5 text-center text-lg-start mb-0 ff_HelveticaNormal fs_3lg"
+          >
             Go to the source.
           </h2>
-          <p className="fs_4sm ff_HelveticaNormal text-center text-lg-start text_dark_50">
+          <p
+            data-aos="fade-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="fs_4sm ff_HelveticaNormal text-center text-lg-start text_dark_50"
+          >
             Read the documentation for Solana and popular tools.
           </p>
           <Row className="py-3 py-md-5">
             <Col className="my-2 my-md-0" md={6}>
               <div className="d-flex align-items-center justify-content-between">
-                <h2 className="ff_HelveticaNormal mb-0 text-white fs_lg">
+                <h2
+                  data-aos="zoom-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="ff_HelveticaNormal mb-0 text-white fs_lg"
+                >
                   Solana Docs
                 </h2>
-                <button className="fs_3xsm  ff_roboto fw-normal text-uppercase text-white viewBtn">
+                <button
+                  data-aos="fade-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="fs_3xsm  ff_roboto fw-normal text-uppercase text-white viewBtn"
+                >
                   View all
                   <svg
                     className="ps-2"
@@ -43,18 +63,38 @@ const GoToTeSource = () => {
                   </svg>
                 </button>
               </div>
-              <div className="Sectionline mt-5"></div>
-              <p className="pt-4 mt-1 text-white ff_HelveticaNormal fs_4sm">
+              <div
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="Sectionline mt-5"
+              ></div>
+              <p
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="pt-4 mt-1 text-white ff_HelveticaNormal fs_4sm"
+              >
                 Learn how Solana works and get a high-level understanding of
                 Solana's architecture.
               </p>
             </Col>
             <Col className="my-2 my-md-0" md={6}>
               <div className="d-flex align-items-center justify-content-between">
-                <h2 className="ff_HelveticaNormal mb-0 text-white fs_lg">
+                <h2
+                  data-aos="zoom-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="ff_HelveticaNormal mb-0 text-white fs_lg"
+                >
                   Metaplex Docs
                 </h2>
-                <button className="fs_3xsm  ff_roboto fw-normal text-uppercase text-white viewBtn">
+                <button
+                  data-aos="fade-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="fs_3xsm  ff_roboto fw-normal text-uppercase text-white viewBtn"
+                >
                   View all
                   <svg
                     className="ps-2"
@@ -79,8 +119,18 @@ const GoToTeSource = () => {
                   </svg>
                 </button>
               </div>
-              <div className="Sectionline mt-5"></div>
-              <p className="pt-4 mt-1 text-white ff_HelveticaNormal fs_4sm">
+              <div
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="Sectionline mt-5"
+              ></div>
+              <p
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="pt-4 mt-1 text-white ff_HelveticaNormal fs_4sm"
+              >
                 Learn what you build with Metaplex, make the process of creating
                 and launching NFTs easier.
               </p>
@@ -88,37 +138,81 @@ const GoToTeSource = () => {
           </Row>
           <Row className="py-3 py-lg-5 flex-column-reverse flex-lg-row">
             <Col className="my-2 my-lg-0" lg={6}>
-              <h3 className="ff_HelveticaNormal text-white fs_2xl">
+              <h3
+                data-aos="zoom-in-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="ff_HelveticaNormal text-white fs_2xl"
+              >
                 Solana Changelog
               </h3>
-              <p className="mt-4 text-white mb-0 ff_HelveticaNormal fs_4sm ">
+              <p
+                data-aos="zoom-in-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="mt-4 text-white mb-0 ff_HelveticaNormal fs_4sm "
+              >
                 Some more Solana changes from Jacob & Joe. Subscribe to the
                 newsletter: https://solana.us17.list-manage.com/s... Proposal -
                 Priced Compute Units: ...
               </p>
-              <button className="mt-5  text-uppercase text-white fw-normal ff_roboto latestBtn">
+              <button
+                data-aos="zoom-in-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="mt-5  text-uppercase text-white fw-normal ff_roboto latestBtn"
+              >
                 Latest episode
               </button>
             </Col>
             <Col className="my-2 my-lg-0" lg={6}>
-              <img className="w-100" src={changelogo} alt="changelogo" />
+              <img
+                data-aos="zoom-in-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="w-100"
+                src={changelogo}
+                alt="changelogo"
+              />
             </Col>
           </Row>
         </Container>
       </div>
-      <div className="bg-black mb-3">
+      {/* **** */}
+      <div className="bg-black mb-3 overflowXhidden">
         <Container className="customContainer">
           <Row className="py-4 py-lg-5">
-            <Col className="my-3 my-lg-0" lg={6}>
+            <Col
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="my-3 my-lg-0"
+              lg={6}
+            >
               <div className="cardShadow p-3 p-sm-5 h-100">
-                <h4 className="ff_HelveticaNormal text-white mb-0 fs_3lg">
+                <h4
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="ff_HelveticaNormal text-white mb-0 fs_3lg"
+                >
                   Solana Developer Update
                 </h4>
-                <p className="mt-4 pt-1 fs_sm text_dark_50 mb-xl-5 pb-xl-4">
+                <p
+                  data-aos="zoom-out"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="mt-4 pt-1 fs_sm text_dark_50 mb-xl-5 pb-xl-4"
+                >
                   Sign up to the newsletter and learn about new resources, new
                   commits, new proposals, and more.
                 </p>
-                <div className="rounded-5 mt-5 bg-black d-flex align-items-center px-2 justify-content-between">
+                <div
+                  data-aos="zoom-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="rounded-5 mt-5 bg-black d-flex align-items-center px-2 justify-content-between"
+                >
                   <input
                     className="inputModify ff_roboto fw-semibold fs_3xsm "
                     type="text"
@@ -130,18 +224,39 @@ const GoToTeSource = () => {
                 </div>
               </div>
             </Col>
-            <Col className="my-3 my-lg-0" lg={6}>
+            <Col
+              data-aos="flip-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="my-3 my-lg-0"
+              lg={6}
+            >
               <div className="cardShadow p-3 p-sm-5 h-100">
-                <h4 className="ff_HelveticaNormal text-white mb-0 fs_2lg">
+                <h4
+                  data-aos="flip-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="ff_HelveticaNormal text-white mb-0 fs_2lg"
+                >
                   Even more resources
                 </h4>
-                <p className="mt-4  fs_2sm text_dark_50 mb-5">
+                <p
+                  data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="mt-4  fs_2sm text_dark_50 mb-5"
+                >
                   More videos, more episodes. Discussions between industry
                   leaders in both blockchain and technology, our team, and
                   community developers.
                 </p>
                 <div className="d-flex align-items-center justify-content-center">
-                  <button className="text-white text-uppercase ff_roboto fw-normal fs_3xsm lastBtn">
+                  <button
+                    data-aos="fade-up"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    className="text-white text-uppercase ff_roboto fw-normal fs_3xsm lastBtn"
+                  >
                     YouTube
                     <svg
                       className="ms-2"
@@ -173,7 +288,12 @@ const GoToTeSource = () => {
                       </defs>
                     </svg>
                   </button>
-                  <button className="text-white text-uppercase ff_roboto ms-3 fw-normal fs_3xsm lastBtn">
+                  <button
+                    data-aos="fade-up"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    className="text-white text-uppercase ff_roboto ms-3 fw-normal fs_3xsm lastBtn"
+                  >
                     Podcast
                     <svg
                       className="ms-2"

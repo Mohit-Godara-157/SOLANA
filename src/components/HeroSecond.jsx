@@ -3,24 +3,42 @@ import { Col, Container, Row } from "react-bootstrap";
 import heroSectionImage from "../assets/img/png/heroSectionImage.png";
 const HeroSecond = () => {
   return (
-    <div className="d-flex flex-column flex-grow-1 align-items-center py-3 py-md-5 py-xl-0 justify-content-center">
+    <div className="d-flex flex-column flex-grow-1 align-items-center py-3 py-md-5 py-xl-0 justify-content-center overflow-hidden">
       <Container className="customContainer">
         <Row className="py-lg-5 flex-column-reverse flex-lg-row align-items-center">
           <Col className="my-3 my-lg-0" lg={6}>
-            <h2 className="text-white mb-0 fs_7xl ff_HelveticaNormal">
+            <h2
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              className="text-white mb-0 fs_7xl ff_HelveticaNormal"
+            >
               Developer Resources
             </h2>
-            <p className="mt-3 ff_HelveticaNormal text_dark_50 fs_md">
+            <p
+              data-aos="flip-up"
+              data-aos-easing="ease-out-cubic"
+              className="mt-3 ff_HelveticaNormal text_dark_50 fs_md"
+            >
               A manual for joining the Solana
               <span className="d-lg-block">
                 ecosystem. By builders for builders.
               </span>
             </p>
             <div className="d-flex mt-4  pt-2">
-              <button className="buildBtn ff_roboto fw-normal fs_3xsm text-uppercase">
+              <button
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="buildBtn ff_roboto fw-normal fs_3xsm text-uppercase"
+              >
                 Build Now
               </button>
-              <button className="ms-3 stackBtn ff_roboto text-white fw-normal fs_3xsm text-uppercase">
+              <button
+                data-aos="flip-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="ms-3 stackBtn ff_roboto text-white fw-normal fs_3xsm text-uppercase"
+              >
                 Stack Exchange{" "}
                 <svg
                   width="16"
@@ -37,9 +55,16 @@ const HeroSecond = () => {
               </button>
             </div>
           </Col>
-          <Col md={6} lg={6} className="my-3 my-lg-0 position-relative z_4">
-            <img
-              className="w-100"
+          <Col
+            xs={8}
+            md={5}
+            lg={6}
+            className="my-3 my-lg-0 position-relative z_4"
+          >
+            <img 
+              data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              className="w-100 transform_xl_image"
               src={heroSectionImage}
               alt="heroSectionImage"
             />
